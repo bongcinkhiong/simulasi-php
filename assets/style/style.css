@@ -1,0 +1,48 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 120px;
+  align-items: center;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+.navbar .menu {
+  padding: 10px;
+}
+
+.navbar .menu a {
+  color: #000;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+/* .list-tiket-pesawat {
+  padding: 20px 120px;
+}
+
+.wrapper-tiket-pesawat {
+  display: flex;
+  align-items: center;
+}
+
+.wrapper-tiket-pesawat .card-tiket-pesawat {
+  width: 230px;
+} */
+
+.wrapper-keranjang {
+  padding: 0 120px;
+}
+
+.wrapper-checkout {
+  padding: 0 120px;
+}
+
+.wrapper-checkout .checkout .wrapper-checkout-tiket-pesawat {
+  display: flex;
+  align-items: center;
+}

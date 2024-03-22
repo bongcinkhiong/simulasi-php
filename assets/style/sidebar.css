@@ -1,0 +1,133 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98vw;
+    background-image: -webkit-repeating-linear-gradient(-50deg, #6995d3 50%, #5ea4ca 50%);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .sidebar-admin{
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #549cc3;
+    overflow: hidden;
+    font-size: x-large;
+    padding-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .sidebar-admin a {
+    padding: 10px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    display: block;
+}
+.sidebar-admin a:hover {
+    background: #000000;
+    color: #ffffff;
+}
+
+
+.main {
+  width: 100%;
+  margin: 230px auto;
+  margin-left: 280px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+.maskapai {
+  width: 100%;
+  margin: 150px auto;
+  margin-left: 280px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th {
+    background-color: #333;
+    color: white;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 10px;
+}
+
+a:hover {
+    color: #555;
+}
+
+.sidebar-petugas{
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #549cc3;
+  overflow: hidden;
+  font-size: x-large;
+  padding-top: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.sidebar-petugas a {
+  margin-top: 100px;
+  padding: 10px;
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+  display: block;
+}
+.sidebar-petugas a:hover {
+  background: #000000;
+  color: #ffffff;
+}
+.rute {
+  width: 100%;
+  margin: 250px auto;
+  margin-left: 60px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+.edit {
+  width: 100%;
+  margin: 250px auto;
+  margin-left: 60px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 280px;
+}
